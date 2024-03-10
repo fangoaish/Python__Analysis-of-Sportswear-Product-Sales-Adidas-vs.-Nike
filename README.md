@@ -82,7 +82,7 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 
 ![Correlation Between Description Length and Mean Rating](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/23ff228c-94d6-49e5-8190-ec332522cdb2)
 
-## _1) Consumer Preferences - Findings_
+## _1) Consumer Preferences - Findings:_
 1. A correlation coefficient of 0.65 could be interpreted as either a "good" or "moderate" correlation. Therefore, there is a positive correlation between revenue and reviews, suggesting that products with higher reviews tend to generate higher revenue.
 2. The correlation coefficient of 0.73 indicates the strength and direction of the linear relationship between description length and the average rating.
 
@@ -113,3 +113,11 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 ![Number of Different Products by Price Category between Adidas and Nike](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/d0d04744-dfc4-46db-828d-1bb2540aaf8d)
 
 ![Average Revenue by Price Category between Adidas and Nike](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/469f76fc-5173-43c1-ada9-843f919c3be6)
+
+## _2) Product Offerings - Findings:_
+
+First, the number of offered discounts by Adidas is **5 times higher** than the ones offered by Nike. Second, both brands offer products in all price categories, but Adidas has a higher number of products in every category compared to Nike. Additionally, it reveals that the _**"Premium" category**_ has the highest average revenue. These findings suggest that Nike and Adidas have distinct price points and the amount of offered discounts for their products, with Adidas offering a higher number of products across price points and potentially generating higher average revenue.
+
+## _2) Product Offerings - Recommendations_
+- Analyze Nike's discount ratio in comparison to Adidas and explore opportunities to optimize discount strategies, ensuring they align with market dynamics while maintaining brand value.
+- Evaluate and diversify the product categories to compete more effectively with Adidas, addressing potential gaps and increasing market share.
