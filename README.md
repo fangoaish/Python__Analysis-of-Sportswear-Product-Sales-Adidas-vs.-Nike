@@ -1,4 +1,4 @@
-# Analysis of Sportswear Product Sales: Adidas vs. Nike
+ # Analysis of Sportswear Product Sales: Adidas vs. Nike
 
 ## Project Overview
 This data analysis project aims to support an online sports clothing company that exclusively sells Adidas or Nike-branded products in boosting its revenue by providing actionable recommendations.
@@ -123,6 +123,8 @@ First, the number of offered discounts by Adidas is **5 times higher** than the 
 ### _2) Product Offerings - Recommendations_
 - Analyze Nike's discount ratio in comparison to Adidas and explore opportunities to optimize discount strategies, ensuring they align with market dynamics while maintaining brand value.
 - Evaluate and diversify the product categories to compete more effectively with Adidas, addressing potential gaps and increasing market share.
+
+
 
 
 
