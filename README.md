@@ -61,8 +61,8 @@ This analysis aims to assist in identifying potential areas of improvement, unde
 ## Exploratory Data Analysis
 Before diving into the data sea, I'll categorize the hypotheses systematically based on our goal, establishing a structured and logical framework for thoughtful analysis.
 
-## _1) Consumer Preferences:_
-- ### **Q:** Does a correlation exist between revenue and reviews?
+### _1) Consumer Preferences:_
+- #### **Q:** Does a correlation exist between revenue and reviews?
     - Why do I want to know? 
         - Explore the strength of any correlation that may exist between a product's revenue and its reviews
     - So what?     
@@ -70,7 +70,7 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
     - Measure by?
         - revenue // reviews
 
-- ### **Q:** Is there an influence on a product's rating and reviews based on the length of its description?
+- #### **Q:** Is there an influence on a product's rating and reviews based on the length of its description?
     -  Why do I want to know?
         - Explore the potential impact of product description length on customer ratings and reviews, addressing the relationship between product information and consumer perception.
     - So what?
@@ -82,16 +82,16 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 
 ![Correlation Between Description Length and Mean Rating](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/23ff228c-94d6-49e5-8190-ec332522cdb2)
 
-## _1) Consumer Preferences - Findings:_
+### _1) Consumer Preferences - Findings:_
 1. A correlation coefficient of 0.65 could be interpreted as either a "good" or "moderate" correlation. Therefore, there is a positive correlation between revenue and reviews, suggesting that products with higher reviews tend to generate higher revenue.
 2. The correlation coefficient of 0.73 indicates the strength and direction of the linear relationship between description length and the average rating.
 
-## _1) Consumer Preferences - Recommendations_
+### _1) Consumer Preferences - Recommendations_
 - Leverage the positive correlation observed between revenue and reviews to enhance marketing strategies, emphasizing the importance of customer reviews in promotional campaigns and product positioning.
 - Consider optimizing product descriptions to a length that resonates well with customers. This could potentially lead to higher average ratings.
 
-## _2) Product Offerings:_
-- ### **Q:** Do Nike and Adidas offer differing discount amounts?
+### _2) Product Offerings:_
+- #### **Q:** Do Nike and Adidas offer differing discount amounts?
     - Why do I want to know? 
         - Aim to investigate and compare the discount strategies employed by Nike and Adidas, providing insights into their promotional approaches.
     - So what?
@@ -100,7 +100,7 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
         - brand // discount
 
 
-- ### **Q:** What distinguishes the price points between Nike and Adidas products?
+- #### **Q:** What distinguishes the price points between Nike and Adidas products?
     - Why do I want to know?: 
         - Focus on understanding the comparative pricing strategies of Nike and Adidas, exploring the differences in their product price points.
     - So what? 
@@ -114,10 +114,10 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 
 ![Average Revenue by Price Category between Adidas and Nike](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/469f76fc-5173-43c1-ada9-843f919c3be6)
 
-## _2) Product Offerings - Findings:_
+### _2) Product Offerings - Findings:_
 
 First, the number of offered discounts by Adidas is **5 times higher** than the ones offered by Nike. Second, both brands offer products in all price categories, but Adidas has a higher number of products in every category compared to Nike. Additionally, it reveals that the _**"Premium" category**_ has the highest average revenue. These findings suggest that Nike and Adidas have distinct price points and the amount of offered discounts for their products, with Adidas offering a higher number of products across price points and potentially generating higher average revenue.
 
-## _2) Product Offerings - Recommendations_
+### _2) Product Offerings - Recommendations_
 - Analyze Nike's discount ratio in comparison to Adidas and explore opportunities to optimize discount strategies, ensuring they align with market dynamics while maintaining brand value.
 - Evaluate and diversify the product categories to compete more effectively with Adidas, addressing potential gaps and increasing market share.
