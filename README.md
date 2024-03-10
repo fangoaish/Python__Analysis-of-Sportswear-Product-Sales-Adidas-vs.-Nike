@@ -56,7 +56,7 @@ These four datasets are provided to investigate:
 No data preparation tasks were required as all the data provided had already been cleaned out prior.
 
 ## Goal
-This analysis aims to assist in identifying potential areas of improvement, understanding **consumer preferences**, and optimizing **product offerings** to enhance the overall competitiveness and **financial performance** of the respective brands.
+This analysis aims to assist in identifying potential areas of improvement, understanding  **_consumer preferences_**, and optimizing  **_product offerings_** to enhance the overall competitiveness and  **_financial performance_** of the respective brands.
 
 ## Exploratory Data Analysis
 Before diving into the data sea, I'll categorize the hypotheses systematically based on our goal, establishing a structured and logical framework for thoughtful analysis.
@@ -125,9 +125,6 @@ First, the number of offered discounts by Adidas is **5 times higher** than the 
 - Evaluate and diversify the product categories to compete more effectively with Adidas, addressing potential gaps and increasing market share.
 
 
-
-
-
 ### _3) Financial Performance:_
 - #### **Q:** How do the product categories contribute to the company's revenue? 
     - Why do I want to know? 
@@ -162,3 +159,17 @@ The wide gap in median revenue raises questions about the pricing strategy, cust
 Given that footwear is the primary revenue driver, it is advisable to continue investing in this category. Explore opportunities to expand the footwear product line, introduce new styles, and leverage market trends to maintain or increase its market share.
 
 While clothing contributes less to the overall revenue, it remains a valuable part of the business. Consider strategies to diversify the clothing portfolio, perhaps by introducing new designs, collaborating with influencers or designers, or identifying untapped market segments to increase its market presence.
+
+## Challenges
+The challenge was to determine the proportion of footwear products of both brands from their clothing counterparts without a specific product type column. Initially, I generated a keyword string to filter relevant rows from our primary DataFrame. Subsequently, I established a counter DataFrame to preserve data whose product IDs are absent from our initial subset, facilitating the differentiation between the two categories of sportswear.
+
+
+
+## Limitations
+- The reliability of the findings and the efficacy of the proposed recommendations depend on the quality of the datasets provided.
+- Please be aware that our merged DataFrame contains aggregated sales data for each specific product.
+- Additionally, the recency of all the data remains unknown due to the absence of a datetime parameter in the datasets.
+
+## References
+[DataCamp](https://www.datacamp.com/)
+[Statista](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/)
