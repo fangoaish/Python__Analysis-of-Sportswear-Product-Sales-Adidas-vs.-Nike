@@ -55,13 +55,13 @@ These four datasets are provided to investigate:
 ## Data Preparation
 No data preparation tasks were required as all the data provided had already been cleaned out prior.
 
-## Goal
+## Business Goal
 This analysis aims to assist in identifying potential areas of improvement, understanding  **_consumer preferences_**, and optimizing  **_product offerings_** to enhance the overall competitiveness and  **_financial performance_** of the respective brands.
 
 ## Exploratory Data Analysis
 Before diving into the data sea, I'll categorize the hypotheses systematically based on our goal, establishing a structured and logical framework for thoughtful analysis.
 
-### _1) Consumer Preferences:_
+### _1) Consumer Preferences_
 - #### **Q:** Does a correlation exist between revenue and reviews?
     - Why do I want to know? 
         - Explore the strength of any correlation that may exist between a product's revenue and its reviews
@@ -82,7 +82,7 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 
 ![Correlation Between Description Length and Mean Rating](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/23ff228c-94d6-49e5-8190-ec332522cdb2)
 
-### _1) Consumer Preferences - Findings:_
+### _1) Consumer Preferences - Findings_
 1. A correlation coefficient of 0.65 could be interpreted as either a "good" or "moderate" correlation. Therefore, there is a positive correlation between revenue and reviews, suggesting that products with higher reviews tend to generate higher revenue.
 2. The correlation coefficient of 0.73 indicates the strength and direction of the linear relationship between description length and the average rating.
 
@@ -92,7 +92,7 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 
 
 
-### _2) Product Offerings:_
+### _2) Product Offerings_
 - #### **Q:** Do Nike and Adidas offer differing discount amounts?
     - Why do I want to know? 
         - Aim to investigate and compare the discount strategies employed by Nike and Adidas, providing insights into their promotional approaches.
@@ -116,7 +116,7 @@ Before diving into the data sea, I'll categorize the hypotheses systematically b
 
 ![Average Revenue by Price Category between Adidas and Nike](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/469f76fc-5173-43c1-ada9-843f919c3be6)
 
-### _2) Product Offerings - Findings:_
+### _2) Product Offerings - Findings_
 
 First, the number of offered discounts by Adidas is **5 times higher** than the ones offered by Nike. Second, both brands offer products in all price categories, but Adidas has a higher number of products in every category compared to Nike. Additionally, it reveals that the _**"Premium" category**_ has the highest average revenue. These findings suggest that Nike and Adidas have distinct price points and the amount of offered discounts for their products, with Adidas offering a higher number of products across price points and potentially generating higher average revenue.
 
@@ -125,7 +125,7 @@ First, the number of offered discounts by Adidas is **5 times higher** than the 
 - Evaluate and diversify the product categories to compete more effectively with Adidas, addressing potential gaps and increasing market share.
 
 
-### _3) Financial Performance:_
+### _3) Financial Performance_
 - #### **Q:** How do the product categories contribute to the company's revenue? 
     - Why do I want to know? 
         - To evaluate the financial performance of different product categories and understand their contribution to overall revenue.
@@ -143,7 +143,7 @@ First, the number of offered discounts by Adidas is **5 times higher** than the 
 ![Comparison of Median Revenue - Footwear vs Clothing](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/c058d361-2949-45f0-9da1-aff9a137a02a)
 
 
-### _3) Financial Performance - Findings:_
+### _3) Financial Performance - Findings_
 
 - Contribution to Company Revenue:
 
@@ -162,8 +162,21 @@ While clothing contributes less to the overall revenue, it remains a valuable pa
 
 ## Challenges
 The challenge was to determine the proportion of footwear products of both brands from their clothing counterparts without a specific product type column. Initially, I generated a keyword string to filter relevant rows from our primary DataFrame. Subsequently, I established a counter DataFrame to preserve data whose product IDs are absent from our initial subset, facilitating the differentiation between the two categories of sportswear.
+```ruby
+# 3) Financial Performance:
+# 1) Q: How much of the company's stock consists of footwear items? 
 
+# There is no column stating the type of product, so I need to rely on the "description" column
+# Challenge: pattern matching -> wildcard -> https://docs.python.org/3/library/re.html#regular-expression-syntax
+footwear_keyword = "shoe*|trainer*|foot*"
 
+# Filter for footwear products
+shoes = merged_df[merged_df["description"].str.contains(footwear_keyword)]
+
+# Filter for clothing products
+# How to Filter Pandas DataFrame Using Boolean Columns https://www.statology.org/pandas-filter-by-boolean-column/
+clothing = merged_df[~merged_df.isin(shoes["product_id"])]
+```
 
 ## Limitations
 - The reliability of the findings and the efficacy of the proposed recommendations depend on the quality of the datasets provided.
@@ -171,5 +184,5 @@ The challenge was to determine the proportion of footwear products of both brand
 - Additionally, the recency of all the data remains unknown due to the absence of a datetime parameter in the datasets.
 
 ## References
-[DataCamp](https://www.datacamp.com/)
-[Statista](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/)
+- [DataCamp](https://www.datacamp.com/)
+- [Statista](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/)
