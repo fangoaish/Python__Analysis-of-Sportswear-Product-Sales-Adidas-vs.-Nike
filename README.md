@@ -1,11 +1,11 @@
 # Analysis of Sportswear Product Sales: Adidas vs. Nike
 
-## Project Overview:
+## Project Overview
 This data analysis project aims to support an online sports clothing company that exclusively sells Adidas or Nike-branded products in boosting its revenue by providing actionable recommendations.
 
 ![image](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/2584a6fa-3c14-4538-9f6d-0a30f3118f7b)
 
-## Business Objective:
+## Business Objective
 
 The primary objective is to gain actionable insights into the market dynamics and product strategies employed by Nike and Adidas. By addressing specific questions related to pricing, discounts, customer reviews, product descriptions, review trends, and revenue breakdown, the goal is to equip stakeholders with valuable information for strategic decision-making.
 
@@ -15,7 +15,7 @@ Within this document, the company is specifically focused on enhancing **_its re
 
 
 
-## Data Sources:
+## Data Sources
 These four datasets are provided to investigate:
 
 ### brands.csv
@@ -52,10 +52,10 @@ These four datasets are provided to investigate:
 | `reviews` | Number of reviews for the product |
 
 
-## Data Preparation:
+## Data Preparation
 No data preparation tasks were required as all the data provided had already been cleaned out prior.
 
-## Goal:
+## Goal
 This analysis aims to assist in identifying potential areas of improvement, understanding **consumer preferences**, and optimizing **product offerings** to enhance the overall competitiveness and **financial performance** of the respective brands.
 
 ## Exploratory Data Analysis
