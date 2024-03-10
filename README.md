@@ -1,18 +1,13 @@
  # Analysis of Sportswear Product Sales: Adidas vs. Nike
 
 ## Project Overview
-This data analysis project aims to support an online sports clothing company that exclusively sells Adidas or Nike-branded products in boosting its revenue by providing actionable recommendations.
+The sports clothing and athleisure sector, valued at around $193 billion in 2021 according to [Statista](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/), is a thriving industry expected to experience significant growth in the coming decade. This data analysis project aims to support an online sports clothing company that exclusively sells Adidas or Nike-branded products in boosting its revenue by providing actionable recommendations.
 
 ![image](https://github.com/fangoaish/Python__Analysis-of-Sportswear-Product-Sales-Adidas-vs.-Nike/assets/51399519/2584a6fa-3c14-4538-9f6d-0a30f3118f7b)
 
 ## Business Objective
 
-The primary objective is to gain actionable insights into the market dynamics and product strategies employed by Nike and Adidas. By addressing specific questions related to pricing, discounts, customer reviews, product descriptions, review trends, and revenue breakdowns, the goal is to equip stakeholders with valuable information for strategic decision-making.
-
-The sports clothing and athleisure sector, valued at around $193 billion in 2021 according to [Statista](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/), is a thriving industry expected to experience significant growth in the coming decade.
-
-Within this document, the company is specifically focused on enhancing **_its revenue streams_**. The analysis will delve into various aspects of product data, including pricing, reviews, descriptions, ratings, as well as revenue, and website traffic.
-
+The primary objective is to gain actionable insights into the market dynamics and product strategies employed by Nike and Adidas. By addressing specific questions related to pricing, discounts, customer reviews, product descriptions, review trends, and revenue breakdowns, the goal is to equip stakeholders with valuable information for strategic decision-making. The company is specifically focused on enhancing **_its revenue streams_**. The analysis will delve into various aspects of product data, including pricing, reviews, descriptions, ratings, as well as revenue, and website traffic.
 
 
 ## Data Sources
