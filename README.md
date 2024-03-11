@@ -1,4 +1,4 @@
- # Analysis of Sportswear Product Sales: Adidas vs. Nike
+# Analysis of Sportswear Product Sales: Adidas vs. Nike
 
 ## Project Overview
 The sports clothing and athleisure sector, valued at around $193 billion in 2021 according to [Statista](https://www.statista.com/statistics/254489/total-revenue-of-the-global-sports-apparel-market/), is a thriving industry expected to experience significant growth in the coming decade. This data analysis project aims to support an online sports clothing company that exclusively sells Adidas or Nike-branded products in boosting its revenue by providing actionable recommendations.
